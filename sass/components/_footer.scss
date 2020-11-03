@@ -1,0 +1,172 @@
+
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto; 
+}
+
+.footer-navigation-link {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $title-dark-theme-color;
+}
+
+.footer-maps-link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $title-dark-theme-color;
+}
+
+.footer-mail-link,
+.footer-tel-link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-link:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer .address {
+    margin-top: 20px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item {
+    margin-right: 70px;
+}
+
+.footer-item-container {
+    margin-bottom: 6px;
+    margin-right: 70px;
+}
+
+.social-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: $main-font;
+    font-weight: 700;
+    color: $title-dark-theme-color;
+    letter-spacing: 0.03em;
+}
+
+.social-list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-footer-item {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1); 
+}
+
+.social-footer-link {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1); 
+    transition: background-color 250ms $timing-function;
+}
+
+.social-footer-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-footer-link svg {
+    width: 20px;
+    height: 20px;
+    --color4: #FFFFFF;
+}
+
+.social-footer-link:hover {
+    background-color: $accent-color;
+}
+
+.footer-form-input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: $title-dark-theme-color;
+}
+
+.footer-form-input:hover,
+.footer-form-input:focus {
+    border-color: $accent-color;
+    outline: none;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.form-footer-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: rgba(33, 150, 243, 1);
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.btn-submit {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.submit-icon {
+    margin-left: 10px;
+}

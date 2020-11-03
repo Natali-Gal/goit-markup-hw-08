@@ -1,0 +1,54 @@
+
+.projects-nav {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.title-projects-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.list-project-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.model-btn-nav {
+
+    display: inline-block;
+    min-width: 73px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    align-items: center;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-light-theme-color;
+    background: $portfolio-btn;
+    border: none;
+    transition: all  250ms $timing-function;
+}
+
+.model-btn-nav:hover,
+.model-btn-nav:focus {
+    background-color: $accent-color;
+    color: $title-dark-theme-color;
+    cursor: pointer;
+}
+
+.btn-nav-list:not(:last-child) {
+    margin-right: 8px;
+}

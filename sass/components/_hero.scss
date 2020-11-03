@@ -1,0 +1,53 @@
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.366;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $title-dark-theme-color; 
+}
+
+.hero {
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+                      url(../images/hero/hero1.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;            
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/hero/hero-desktop@2x.jpg);
+  }
+}
+
+.model-btn {
+    min-width: 200px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $title-dark-theme-color;
+    background: $accent-color;
+    border: none;
+    display: block;
+    margin: 0 auto; 
+    cursor: pointer; 
+    outline: none;
+    
+}

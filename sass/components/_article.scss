@@ -1,0 +1,156 @@
+
+.article {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+
+.article-list-item {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) { 
+    .article-list-item:not(:last-child) {
+    margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+   
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .article-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-list-item {
+        width: 354px;
+        justify-content: space-between;
+    
+    }
+
+    .article-list-item:not(:nth-last-child(-n+2)) {
+        margin-bottom: 30px;
+    }
+
+    .article-list-item:not(:nth-child(2n)) {
+        margin-right: 30px;
+    }
+
+ 
+
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .article-list-item {
+        width: 270px;
+    }
+
+    .article-list-item:not(:last-child) {
+        margin-right: 30px; 
+    }
+
+
+}
+
+
+/*
+
+.article-list {
+    display: flex; 
+}
+.article-list-item:not(:last-child) {
+    margin-right: 30px; 
+}
+
+.article-list-item {
+    width: 270px;
+}
+
+
+.antenna::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url(../images/figure-icon/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.clock::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url(../images/figure-icon/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.diagram::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url(../images/figure-icon/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.astronaut::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-image: url(../images/figure-icon/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.article-title-hidden {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-light-theme-color;
+}
+
+.article-content {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $subtitle-color;
+}
+*/

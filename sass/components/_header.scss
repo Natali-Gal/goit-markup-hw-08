@@ -1,0 +1,123 @@
+
+.web {
+    color: $accent-color;
+}
+
+.header {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header .address {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-address-link{
+    display: flex;
+    transition: color 250ms $timing-function;
+}
+
+.header-mail-link svg {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.header-tel-link svg {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.header-mail-link:hover svg,
+.header-tel-link:hover svg {
+    --color5: #2196F3;
+} 
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-address:not(:last-child) {
+    margin-right: 50px;
+}
+
+.navigation-link {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-right: 93px;
+
+}
+
+.navigation-list-link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: $title-light-theme-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative; 
+    transition: color 250ms $timing-function;
+}
+
+.link-studio,
+.link-portfolio {
+    color: $accent-color;
+}
+
+
+.link-studio::after,
+.link-portfolio::after {
+    display: block;
+    content: " ";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+    position: absolute;
+    transition: color 250ms $timing-function;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-address-link :hover,
+.header-address-link :focus {
+    color: $accent-color;
+}
+
+.header-mail-link,
+.header-tel-link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: $subtitle-color;
+}
