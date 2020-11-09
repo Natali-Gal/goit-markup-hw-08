@@ -7,6 +7,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .support {
@@ -16,10 +17,106 @@
     min-height: 100%;
 }
 
+
+@media screen and (min-width:320px) and (max-width:767px) { 
+    
+   
+
+  
+}
+
+@media screen and (min-width:480px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .model {
+        width: 450px;
+        height: 609px;
+        margin-top: 95px;
+    }
+
+    .form-input {
+        width: 370px;
+    }
+
+    .form-comment {
+        width: 370px;
+    }
+
+    .form-checkbox-container {
+        font-size: 12px;
+        line-height: 1.712;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) { 
+    
+ 
+  
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-about {
+      
+        margin: 0 auto;
+    }
+    
+    .model {
+        width: 450px;
+        height: 609px;
+        margin-top: 208px;
+    }
+
+    .form-input {
+        width: 370px;
+    }
+
+    .form-comment {
+        width: 370px;
+    }
+
+    .form-checkbox-container {
+        font-size: 12px;
+        line-height: 1.712;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .model {
+        width: 528px;
+        height: 581px;
+    }
+
+    .form-input {
+        width: 448px;
+    }
+
+    .form-comment {
+        width: 448px;
+    }
+
+    .form-checkbox-container {
+        display: flex;
+        font-size: 14px;
+        line-height: 1.714;
+    }
+
+    .checkbox-item {
+        margin-left: 5px;
+    }
+} 
+
 .model {
     position: relative;
-    width: 528px;
-    height: 581px;
     background-color: #FFFFFF;
     padding-left: 40px;
     padding-right: 40px;
@@ -65,7 +162,6 @@
 }
 
 .form-input {
-    width: 448px;
     height: 40px;
     border-color: rgba(33, 33, 33, 0.2);
     border-style: solid;
@@ -83,8 +179,7 @@
     cursor: pointer;
 }
 
-.form-comment{
-    width: 448px;
+.form-comment {
     height: 120px;
     padding: 12px;
     resize: none;
@@ -122,10 +217,9 @@
     font-family: $main-font;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     color: rgba(117, 117, 117, 1);
+   
 }
 
 .form-checkbox-container::before {
@@ -147,7 +241,6 @@
 .checkbox-item {
     color: $accent-color;
     margin-left: 5px;
-    
 }
 
 

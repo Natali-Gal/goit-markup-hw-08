@@ -1,53 +1,130 @@
-.hero-title {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-family: $main-font;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.366;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $title-dark-theme-color; 
-}
+@media screen and (min-width:480px) {
+  .container { 
+    margin: 0 auto;
+  }
 
-.hero {
-    background: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-                      url(../images/hero/hero1.jpg);
-    background-repeat: no-repeat;    
-    background-size: cover;            
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .box {
-    background-image: url(../images/hero/hero-desktop@2x.jpg);
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.615;
   }
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero-mobil@2x.jpg);
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) { 
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero-mobil.jpg);
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) { 
+  
+ 
+}
+
+@media screen and (min-width: 768px) {
+
+  .container { 
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.615;
+  }
+
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero-tablet.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.364;
+  }
+
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero1.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hero/hero-desktop@2x.jpg);
+  }
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $title-dark-theme-color; 
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;    
+  background-size: cover;            
+}
+
 .model-btn {
-    min-width: 200px;
-    border-radius: 4px;
-    padding: 10px 32px;
-    font-family: $main-font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: $title-dark-theme-color;
-    background: $accent-color;
-    border: none;
-    display: block;
-    margin: 0 auto; 
-    cursor: pointer; 
-    outline: none;
-    
+  min-width: 200px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $title-dark-theme-color;
+  background: $accent-color;
+  border: none;
+  display: block;
+  margin: 0 auto; 
+  cursor: pointer; 
+  outline: none; 
 }
